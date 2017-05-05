@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
+b, u, i, left,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
@@ -31,7 +31,8 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  background-color: #f9f9f9;
+  background-color: #DAFAF8;
+  color: #2A2B5F;
 }
 ol, ul {
   list-style: none;
@@ -51,17 +52,18 @@ table {
 
 .container {
   display: block;
-  width: 100%;
+  width: 90%;
   max-width: 1100px;
   margin: 0 auto;
+  padding-left: 10%;
 }
 
 header {
-  background-color: #6730EC;
+  background-color: #393C83;
   color: white;
   padding: 10em 0 2em;
   margin-bottom: 5em;
-  text-align: center;
+  text-align: left;
 }
 
 h1 {
@@ -69,15 +71,15 @@ h1 {
 }
 
 h3 {
-  color: #6730EC;
-  margin: 3em 0 1em;
+  color: #F21368;
+  margin: .35em 0;
   font-size: 1.5rem;
 }
 
 h1, h3 {
-  font-family: 'Nunito', Helvetica, Arial, sans-serif;
+  font-family: 'Copse', Helvetica, Arial, sans-serif;
   font-weight: 800;
-  text-align: center;
+  text-align: left;
 }
 
 form {
@@ -89,9 +91,9 @@ form {
 
 label {
   display: block;
-  font-family: 'Nunito', Helvetica, Arial, sans-serif;
+  font-family: 'Copse', Helvetica, Arial, sans-serif;
   font-weight: 800;
-  color: #6730EC;
+  color: #393C83;
   margin: 1.2em 0 .5em;
 }
 
@@ -105,14 +107,36 @@ input, select {
     transition: .5s ease all;
 }
 
+.usuario {
+    overflow: hidden;
+    margin-bottom: 2em; 
+}
+
+.usuario img {
+        display: block;
+    float: left;
+    width: initial;
+    border-radius: 20%;
+    background: white;
+    padding: 0;
+    border: 20px solid transparent;
+}
+
+.usuario .texto {
+    display: block;
+    overflow: hidden;
+    float: left;
+    margin: 0 1em;
+}
+
 .btn {
   display: block;
-  text-align: center;
-  font-family: 'Nunito', Helvetica, Arial, sans-serif;
+  text-align: left;
+  font-family: 'Copse', Helvetica, Arial, sans-serif;
   font-weight: 800;
   cursor: pointer;
   color: #fff;
-  background-color: #6730EC;
+  background-color: #393C83;
   letter-spacing: 1px;
   font-size: 90%;
   padding: 1em .5em;
@@ -130,19 +154,19 @@ p {
   display: block;
   margin: 1em 0;
   line-height: 1.7;
-  text-align: center;
+  text-align: left;
 }
 
 span {
-  border-bottom: 2px #6730EC solid;
+  border-bottom: 2px #393C83 solid;
   font-weight: 700;
 }
 
 b {
-  font-family: 'Nunito', Helvetica, Arial, sans-serif;
+  font-family: 'Copse', Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-size: 112%;
-  color: #6730EC;
+  color: #393C83;
 }
 
 small {
